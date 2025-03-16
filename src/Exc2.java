@@ -42,11 +42,11 @@ public class Exc2 {
             lista.add(in.nextInt());
         }
 
+        in.close();
+
         String resultado = verifica(lista);
     
         System.out.println("    ");
         System.out.println("    " + resultado);
-
-        in.close();
     }
 }
